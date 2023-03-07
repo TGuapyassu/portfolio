@@ -1,0 +1,86 @@
+@import "styles/variaveis";
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-top: 32px;
+
+  .bg {
+    background-color: $color2;
+    padding: 0 0 48px;
+  }
+
+  .container {
+    display: flex;
+    max-width: 768px;
+    margin: 125px auto 65px;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+    color: $link;
+  }
+
+  .subtitle {
+    font-size: .813rem;
+    color: $link;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+
+  a {
+    color: $link;
+    text-decoration: none;
+
+    &:hover {
+      color: $footer-hover;
+    }
+  }
+}
+
+.social svg {
+  font-size: 1.25rem;
+  margin-right: 1.5rem;
+  color: $text;
+
+  &:hover {
+    color: $footer-hover;
+  }
+}
+
+.copy {
+  font-size: .75rem;
+  text-align: center;
+  color: $text;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    .container {
+      flex-direction: column;
+      margin: 35px 12px;
+      gap: 70px;
+    }
+  }
+  
+
+  .links {
+    flex-direction: column;
+  }
+}

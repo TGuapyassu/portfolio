@@ -1,0 +1,42 @@
+@import "styles/variaveis";
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 125px auto 65px;
+    max-width: 768px;
+
+    .title {
+        font-size: 35px;
+        color: $title;
+        margin: 5px;
+    }
+
+    .subtitle {
+        margin-bottom: 16px;
+    }
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 12px;
+
+    svg {
+        font-size: 28px;
+    }
+
+    .titles {
+        color: $title;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .subtitles {
+        font-size: 14px;
+        color: $text;
+    }
+}
