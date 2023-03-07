@@ -1,6 +1,6 @@
 # Portfolio
 
-# Try It [Skate](https://tguapyassu.github.io/portfolio/).
+# Try It [Portfolio](https://tguapyassu.github.io/portfolio/).
 
 
 
