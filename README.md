@@ -1,6 +1,6 @@
 # Portfolio
 
-# Try It [Portfolio](https://tguapyassu.github.io/portfolio/).
+# Try It [Portfolio](https://tguapyassu.github.io/Portfolio/).
 
 
 
